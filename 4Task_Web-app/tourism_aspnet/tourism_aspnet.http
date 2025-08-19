@@ -1,6 +1,0 @@
-@tourism_aspnet_HostAddress = http://localhost:5142
-
-GET {{tourism_aspnet_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
