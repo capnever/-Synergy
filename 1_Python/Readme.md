@@ -14,4 +14,4 @@ def sum_negative_between_max_min(A):
 
     return negative_sum  # Возвращаем сумму отрицательных элементов между максимумом и минимумом
 Результат примера кода:
-![img.png](img.png)
+![img.png](screenshots/img.png)
