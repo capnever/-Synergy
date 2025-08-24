@@ -53,8 +53,7 @@ ERP-системы: SAP, 1C:ERP, Microsoft Dynamics 365
    Создаем базу данных LibraryDB и таблицу Books
    Код:
 
-
-    CREATE DATABASE LibraryDB;
+    `CREATE DATABASE LibraryDB;
     USE LibraryDB;
     CREATE TABLE Books (
     BookID INT IDENTITY(1,1) PRIMARY KEY,
@@ -66,8 +65,7 @@ ERP-системы: SAP, 1C:ERP, Microsoft Dynamics 365
     INSERT INTO Books (Title, Author, YearPublished) VALUES
     ('Война и мир', 'Лев Толстой', 1869),
     ('Преступление и наказание', 'Фёдор Достоевский', 1866),
-    ('Мастер и Маргарита', 'Михаил Булгаков', 1967);
-
+    ('Мастер и Маргарита', 'Михаил Булгаков', 1967);`
 
 2. Создание Web-приложения в Delphi 12
 
